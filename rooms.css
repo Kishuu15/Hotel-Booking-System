@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+.tm-header {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.tm-logo {
+    width: 150px;
+}
+
+.tm-nav {
+    margin-top: 10px;
+}
+
+.tm-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tm-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.tm-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main section styles */
+.tm-main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Room section styles */
+.tm-roomsection {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.tm-room1 {
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.tm-room1 img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Reservation section styles */
+.tm-makeres {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tm-res {
+    background-color: #05c318;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tm-resbutton p {
+    color: #ffffff;
+    margin: 0;
+    cursor: pointer;
+}
+
+.tm-resbutton p:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.tm-footer p {
+    margin: 0;
+}
+
+.tm-us,
+.tm-address {
+    width: 50%;
+    display: inline-block;
+}
+
+.tm-media {
+    margin-top: 10px;
+}
+
+.tm-media img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .tm-roomsection {
+        justify-content: space-around;
+    }
+
+    .tm-room1 {
+        width: 45%;
+    }
+
+    .tm-us,
+    .tm-address {
+        width: 100%;
+    }
+}
